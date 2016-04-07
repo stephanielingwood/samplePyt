@@ -11,6 +11,7 @@ env:
     - m1=test
   matrix:
     - m2=two
+    - m4=four
 matrix:
   include:
     - python: 2.7
@@ -19,6 +20,12 @@ matrix:
        
   allow_failures:
     - python: 2.6
+      env:
+       - m2=two
+       
+    - python: 2.6
+      env:
+       - m4=four
 
 build:
   ci:
