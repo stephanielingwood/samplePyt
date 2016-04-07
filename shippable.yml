@@ -10,9 +10,9 @@ python:
   #- 3.3
 matrix:
   include:
-    - 3.2
+    - python: 3.2
   exclude:
-    - 2.7
+    - python: 2.7
   
 
 build:
