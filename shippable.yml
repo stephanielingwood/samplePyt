@@ -12,7 +12,8 @@ matrix:
   exclude:
     - python: 2.7
   allow_failures:
-    - python: 2.6, 3.2
+    - python: 2.6
+      python: 3.2
   
 
 build:
