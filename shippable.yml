@@ -8,7 +8,7 @@ python:
   - 2.7
   
 matrix:
-  include:
+  exclude:
     - python: 2.7
   
 
