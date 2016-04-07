@@ -8,7 +8,11 @@ python:
   - 2.7
   #- 3.2
   #- 3.3
-  
+matrix:
+  include:
+    - 3.2
+  exclude:
+    - 2.7
   
 
 build:
