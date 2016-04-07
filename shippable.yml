@@ -16,10 +16,12 @@ matrix:
     - python: 2.7
       env:
        - m3=three
+       
   
 
 build:
   ci:
+    - if [ "$SHIPPABLE_PYTHON_VERSION" == "2.6" ]; then foobar; fi
     - python --version
     
     
