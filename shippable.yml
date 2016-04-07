@@ -16,3 +16,4 @@ matrix:
 build:
   ci:
     - python --version
+    - cd ../idontexist
